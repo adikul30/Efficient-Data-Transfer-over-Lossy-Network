@@ -1,9 +1,6 @@
 # Communication-Network-for-Moving-Pods
 
 
-
-![Demo](demo.m4v)
-
 ![Demo-Gif](demo-gif.gif)
 
 A radio network simulated by a multicast IP for inter-pod communication.
@@ -16,7 +13,7 @@ Each pod on the network executes RIP to exchange routing information with its ne
 ##RDP Protocol
 The implementation is based on RFC 1151 which itself is an extension of the core Relaiable Data Protocol RFC 908. 
 
-###Connection
+### Connection
 
 The connection process is similar to TCP, 
 
@@ -66,7 +63,7 @@ And so on ...
 
 
 
-###Termination
+### Termination
 
 Client => Once the file reader reaches EOF and all the packets in the window are acknowledged, it sends a packet with the FIN flag enabled and terminates. 
 
@@ -87,7 +84,7 @@ Solution - EACKs (mentioned above)
 for this scenario. 
 
 
-####Reference
+### Reference
 
 ```
 @misc{rfc908,
