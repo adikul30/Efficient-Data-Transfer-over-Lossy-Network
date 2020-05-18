@@ -7,10 +7,10 @@ A radio network simulated by a multicast IP for inter-pod communication.
 A distance-vector ​routing protocol RIPv2 handles node failures and topology changes within the network.
 A ​reliable data transfer protocol​ on top of UDP more efficient than TCP (for this scenario). 
 
-##RIPv2 Protocol
+## RIPv2 Protocol
 Each pod on the network executes RIP to exchange routing information with its neighbors, and based on this information, the pod computes the shortest paths from itself to all the other pods and the container. Pods may move around (appearing and disappearing to the other pods). 
 
-##RDP Protocol
+## RDP Protocol
 The implementation is based on RFC 1151 which itself is an extension of the core Relaiable Data Protocol RFC 908. 
 
 ### Connection
@@ -84,7 +84,7 @@ Solution - EACKs (mentioned above)
 for this scenario. 
 
 
-### Reference
+## Reference
 
 ```
 @misc{rfc908,
