@@ -1,14 +1,4 @@
-## CODE IS PRIVATE DUE TO RIT CS DEPT. POLICY
-
-
-
-
-
-
-
-
-
-## Communication-Network-for-Moving-Pods
+## Efficient-Data-Transfer-over-Lossy-Network
 
 
 ![Demo-Gif](demo-gif.gif)
